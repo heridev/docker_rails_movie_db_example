@@ -44,6 +44,9 @@ Start your sidekiq process so it runs the actual indexing
 bundle exec sidekiq -q elasticsearch
 ```
 
+### Knowledge about this repository included in this wiki
+[Wiki page](https://github.com/heridev/docker_rails_movie_db_example/wiki/Explanation-about-this-project-and-the-way-to-work-with-docker)
+
 ### In case you want to ship it in docker
 Generate the docker image
 ```
