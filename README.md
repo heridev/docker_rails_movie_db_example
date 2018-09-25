@@ -43,3 +43,12 @@ Start your sidekiq process so it runs the actual indexing
 ```shell
 bundle exec sidekiq -q elasticsearch
 ```
+
+### In case you want to ship it in docker
+Generate the docker image
+```
+docker build -t moviedb .
+```
+
+if you're having troubles to clone it you need to log-in using your
+docker credentials.
